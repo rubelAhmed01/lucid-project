@@ -1,0 +1,403 @@
+* {
+  margin: 0px;
+ padding: 0px;
+}
+header{
+background-image: url("../images/backgruond.png");
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+.navbar-light .navbar-nav .nav-link{
+color: rgb(255, 254, 254);
+font-size: 17px;
+font-family: "Source Sans Pro", sans-serif;
+position: relative;
+padding: 0px;
+margin-left: 20px;
+}
+.navbar-light .navbar-nav .nav-link::before{
+content: "";
+position: absolute;
+left: 0px;
+bottom: -5px;
+height: 2px;
+width: 0%;
+background: rgb(0, 142, 214);
+transition: all 0.5s ease-in-out 0s;
+}
+.navbar-light .navbar-nav .nav-link::after{
+content: "";
+position: absolute;
+right: 0px;
+bottom: -5px;
+height: 2px;
+width: 0%;
+background: rgb(0, 142, 214);
+transition: all 0.5s ease-in-out 0s;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+color: rgb(255, 254, 254);
+}
+.navbar-light .navbar-nav .nav-link:hover::after{
+width: 45%;
+}
+.navbar-light .navbar-nav .nav-link:hover::before{
+width: 45%;
+}
+.banner-content{
+
+}
+.banner-content h4 {
+color: rgb(0, 142, 214);
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 2px;
+font-family: "Source Sans Pro", sans-serif;
+margin-bottom: 25px;
+}
+.banner-content h1{
+color: rgb(255, 255, 255);
+font-size: 48px;
+font-weight: 600;
+font-family: "Source Sans Pro", sans-serif;
+margin-bottom: 35px;
+}
+.banner-content p{
+color: rgb(153, 153, 153);
+font-size: 18px;
+font-weight: 400;
+font-family: "Source Sans Pro", sans-serif;
+margin-bottom: 60px;
+}
+.btn-download{
+color: rgb(255, 255, 255);
+background: rgb(0, 142, 214);
+padding: 8px 20px;
+letter-spacing: 1px;
+border-radius: 3px;
+font-size: 14px;
+margin-right: 12px;
+transition: .5s all ease-in-out;
+}
+.btn-download:hover{
+background: transparent;
+border: 1px solid #999999;
+color: #fff;
+}
+.btn-view{
+color: rgb(255, 255, 255);
+padding: 8px 20px;
+letter-spacing: 1px;
+border-radius: 3px;
+font-size: 14px;
+border: 1px solid #999999;
+transition: .5s all ease-in-out
+}
+.btn-view:hover{
+background:rgb(0, 142, 214);
+color: #fff;
+}
+.phone{
+position: absolute;
+width: 40%;
+bottom: 0;
+left: 55%;
+}
+.hg{
+min-height: 90vh;
+}
+.amazing-feature{
+
+}
+.amazing-feature h4{
+
+color: rgb(0, 142, 214);
+
+font-size: 14px;
+
+font-weight: 700;
+
+letter-spacing: 2px;
+
+font-family: "Source Sans Pro", sans-serif;
+
+margin-bottom: 15px;
+}
+.amazing-feature h1{
+position: relative;
+margin: 0;
+color: #1a1a1a;
+font-size: 36px;
+font-weight: 600;
+font-family: "Source Sans Pro", sans-serif;
+}
+.amazing-feature h1::before{
+content: '';
+position: absolute;
+bottom: -30px;
+left: 46%;
+height: 2px;
+width: 0px;
+background: rgb(0, 142, 214);
+transition: .5s all ease-in-out;
+
+}
+.amazing-feature h1::after{
+content: '';
+position: absolute;
+bottom: -30px;
+right: 46%;
+height: 2px;
+width: 0;
+background: rgb(0, 142, 214);
+transition: .5s all ease-in-out;
+
+}
+.amazing-feature:hover h1::before{
+width: 40px;
+
+}
+.amazing-feature:hover h1::after{
+width: 40px;
+
+}
+.single-feature{
+
+}
+.single-feature h3{
+
+font-size: 24px;
+
+font-weight: 400;
+
+color: #1a1a1a;
+
+margin: 0;
+
+margin-bottom: 20px;
+}
+.single-feature p{
+
+color: #999999;
+
+font-size: 18px;
+
+font-weight: 400;
+
+font-family: "Source Sans Pro", sans-serif;
+}
+.icon-box{
+
+width: 50px;
+
+height: 50px;
+
+/* background: red; */
+
+line-height: 50px;
+
+margin: auto;
+
+border-radius: 50%;
+
+color: rgb(0, 142, 214);
+
+border: 1px solid #999999;
+
+margin-bottom: 30px;
+}
+.icon-box i{
+  
+}
+.DIP-section{
+  border-top: 1px solid #dad7d7;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  padding-top: 60px;
+}
+
+.DIP-section h4{
+
+margin: 0;
+
+font-size: 14px;
+
+font-weight: 700;
+
+letter-spacing: 2px;
+
+color: #008ed6;
+
+font-family: "Source Sans Pro", sans-serif;
+
+margin-bottom: 25px;
+
+padding-top: 100px;
+}
+.DIP-section h1{
+
+margin: 0;
+
+font-size: 36px;
+
+font-weight: 600;
+
+color: #1a1a1a;
+
+font-family: "Source Sans Pro", sans-serif;
+
+margin-bottom: 35px;
+position: relative;
+}
+.DIP-section p{
+
+margin: 0;
+
+font-size: 18px;
+
+color: #999999;
+
+font-weight: 400;
+
+font-family: "Source Sans Pro", sans-serif;
+
+margin-bottom: 40px;
+}
+.DIP-section ul{
+
+list-style: none;
+
+margin: 0;
+
+padding: 0;
+}
+.DIP-section ul li{
+
+font-size: 18px;
+
+font-weight: 400;
+
+color: #1b1b1b;
+
+font-family: "Source Sans Pro", sans-serif;
+}
+.DIP-section ul li i{
+ 
+margin-right: 15px;
+ 
+color: rgb(0, 142, 214);
+}
+.DIP-section h1::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  height: 2px;
+  width: 0px;
+  background: rgb(0, 142, 214);
+  transition: .5s all ease-in-out;
+}
+.DIP-section h1::after{
+  content: '';
+  position: absolute;
+  right: 0%;
+  bottom: -10px;
+  height: 2px;
+  width: 0px;
+  background: rgb(0, 142, 214);
+  transition: .5s all ease-in-out;
+}
+.DIP-section:hover h1::before{
+  width: 40px;
+  left: 0%;
+
+}
+.DIP-section:hover h1::after{
+  width: 40px;
+  right: 83%;
+
+}
+.super-easy{
+  background: #f2f2f2;
+
+}
+.super-easy h4{
+
+margin: 0;
+
+font-size: 14px;
+
+font-weight: 700;
+
+letter-spacing: 2px;
+
+color: #008ed6;
+
+font-family: "Source Sans Pro", sans-serif;
+
+margin-bottom: 25px;
+
+padding-top: 100px;
+}
+.super-easy h1{
+
+margin: 0;
+
+font-size: 36px;
+
+font-weight: 600;
+
+color: #1a1a1a;
+
+font-family: "Source Sans Pro", sans-serif;
+
+margin-bottom: 35px;
+
+position: relative;
+}
+.super-easy h1::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  height: 2px;
+  width: 0px;
+  background: rgb(0, 142, 214);
+  transition: .5s all ease-in-out;
+}
+.super-easy h1::after{
+  content: '';
+  position: absolute;
+  right: 84%;
+  bottom: -10px;
+  height: 2px;
+  width: 0px;
+  background: rgb(0, 142, 214);
+  transition: .5s all ease-in-out;
+}
+.super-easy h1:hover::before{
+  width: 40px;
+
+}
+.super-easy h1:hover::after{
+  width: 40px;
+  
+}
+.super-easy p{
+  
+margin: 0;
+  
+font-size: 18px;
+  
+color: #999999;
+  
+font-weight: 400;
+  
+font-family: "Source Sans Pro", sans-serif;
+  
+margin-bottom: 40px;
+}
